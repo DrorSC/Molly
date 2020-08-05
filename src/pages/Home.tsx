@@ -1,5 +1,8 @@
 import React from 'react';
+import Container from '@material-ui/core/Container';
 
 export function Home() {
-    return <h2>Home</h2>;
+    return <Container className="page">
+        <h1>Home</h1>
+    </Container>
 }
